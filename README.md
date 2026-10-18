@@ -6,11 +6,9 @@ A structured Python learning repository covering fundamentals to advanced topics
 
 ```mermaid
 flowchart LR
-    A[User] --> B[Learn Python Aiub]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+    User --> Script[Hello.py]
+    Script --> StdLib[Python stdlib]
+    Script --> Output[Console / file output]
 ```
 
 
